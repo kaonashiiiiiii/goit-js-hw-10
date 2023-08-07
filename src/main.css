@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000000;
+    color: #3f3e3e;
+    line-height: 1.5;
+    background: white;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 50px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .breed-select {
+    margin-bottom: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 120px;
+  }
+  
+  .cat-info {
+    max-width: 90%;
+    max-height: 500px;
+    border-radius: 70px;
+    transition: all 0.3s;
+    display: flex;
+    gap: 50px;
+    box-shadow: 0 4px 8px rgba(55, 50, 50, 0.2);
+    padding: 20px;
+    margin: auto;
+    background: #a9dede;
+  }
+  
+  .loader {
+    width: auto;
+    height: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+  }
